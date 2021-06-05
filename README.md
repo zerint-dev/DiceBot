@@ -1,2 +1,2 @@
 # DiceBot 
-Create a "token" file with the discord bots private token in it.
+Create a "token" file in the root with the discord bots private token in it.
