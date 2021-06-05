@@ -4,5 +4,5 @@ Invite link: h<span>ttps://discord</span>.com/api/oauth2/authorize?client_id=**<
 
 ### Commands:  
 - d
-- <1-99>d (number of dices)
-- <1-99>d<1-99> (number of dices, number of sides)
+- <1-99>d (number of dice)
+- <1-99>d<1-99> (number of dice, number of sides)
