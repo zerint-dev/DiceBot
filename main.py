@@ -53,7 +53,11 @@ async def on_message(message):
                     numbers.append(random.randint(1, 6))
 
         else:
-            numbers.append(random.randint(1, 6))
+            if matches.group(2):
+                numbers.append(random.randint(1, int(matches.group(2))))
+
+            else:
+                numbers.append(random.randint(1, 6))
 
         await message.channel.send(prefix + table_gen(numbers) + suffix)
 
