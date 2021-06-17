@@ -2,7 +2,7 @@ import discord
 import random
 import re
 
-pattern = r'(\d{1,2})?d(\d{1,2})?'
+pattern = r'(\d{1,2})?d(\d{1,3})?'
 prefix = '```Rolled:'
 suffix = '```'
 separator = ','
